@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    background-image: url("../imagens/fundo-madeira.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+}
+main {
+    position: relative;
+    height:100vh;
+    width: 100vw;
+}
+section#telefone {
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("../imagens/frame-iphone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+section#telefone iframe {
+    position: relative;
+    top: 51px;
+    left: 15px;
+    height: 300px;
+    width: 170px;
+}
+section#menu {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+div.divmenu {
+    height: 39px;
+    width: 39px;
+    background-color: red;
+    border-radius: 39px;
+    margin-top: 5px;
+    margin-right: 9px;
+    border: 3px solid white;
+}
+div.divmenu:hover {
+    transition: .5s;
+    padding: 9px;
+    border: 3px solid red;
+}
+div#facebook {
+    background-image: url("../imagens/logo-facebook.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#github {
+    background-image: url("../imagens/logo-github.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#home {
+    background-image: url("../imagens/logo-home.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#youtube {
+    background-image: url("../imagens/logo-youtube.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#twitter {
+    background-image: url("../imagens/logo-twitter.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+div#instagram {
+    background-image: url("../imagens/logo-instagram.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

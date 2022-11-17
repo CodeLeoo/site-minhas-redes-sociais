@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste flexbos centralizaçao vertical</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        body {
+            background-color: aqua;
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+        }
+        section {
+            height: 100vh;
+            max-width: 100vw;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            left: 95.5%;
+            transform: translate(0%, 0%);
+        }
+        div.menu {
+            height: 39px;
+            width: 39px;
+            background-color: white;
+            border-radius: 39px;
+            margin-bottom: 19px;   
+            background-image: url("imagens/logo-github.jpg"); 
+            background-repeat: no-repeat;
+            background-size: contain;      
+        }
+        div.menu:hover {
+            background-color: rgba(0, 0, 0, 0.507);
+            transition: .3s;
+            border: 2px solid red;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="menu">
+
+        </div>
+        <div class="menu">
+
+        </div>
+        <div class="menu">
+
+        </div>
+    </section>
+</body>
+</html>
